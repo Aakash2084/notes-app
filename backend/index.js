@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 1606;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://notes-app-xi-gold.vercel.app",
     credentials: true,
-  }),
+  })
 );
 app.use(cookieParser());
 
