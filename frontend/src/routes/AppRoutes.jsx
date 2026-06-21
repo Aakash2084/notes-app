@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import AddNote from "../pages/AddNote";
 import EditNote from "../pages/EditNote";
-import Login from "../pages/login";
+import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 
 import { ProtectedRoute } from "../../index";
