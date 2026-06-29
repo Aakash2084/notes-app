@@ -4,15 +4,9 @@ import api from "../../services/api";
 
 const initialState = {
   user: null,
-
-  // AUTH CHECK LOADING
   authLoading: true,
-
-  // NORMAL FORM LOADING
   loading: false,
-
   error: null,
-
   isAuthenticated: false,
 };
 

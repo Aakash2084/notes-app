@@ -21,7 +21,7 @@ router.get(
 
   async (req, res) => {
     try {
-      // DATABASE SE FULL USER FETCH
+     
       const user = await User.findById(req.user.id).select("-password");
 
       res.status(200).json({

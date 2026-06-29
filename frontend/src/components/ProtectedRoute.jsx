@@ -9,17 +9,17 @@ import { Loader } from "../../index";
 function ProtectedRoute({ children }) {
   const { isAuthenticated, authLoading } = useSelector((state) => state.auth);
 
-  // AUTH CHECK CHAL RAHA HAI
+
   if (authLoading) {
     return <Loader />;
   }
 
-  // LOGIN NAHI HAI
+
   if (!isAuthenticated) {
     return <Navigate to="/login" />;
   }
 
-  // LOGIN HAI
+
   return children;
 }
 
