@@ -27,9 +27,14 @@ function Navbar() {
     <nav className="bg-white shadow-md border-b sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* LOGO */}
-        <Link to="/" className="text-2xl md:text-3xl font-bold text-gray-800">
-          Notes
-          <span className="text-blue-500">App</span>
+
+          <Link to="/" className="text-2xl md:text-3xl font-bold bg-gradient-to-r
+from-blue-600
+to-purple-600
+bg-clip-text
+text-transparent ">
+          NotesApp
+      
         </Link>
 
         {/* RIGHT SIDE */}
